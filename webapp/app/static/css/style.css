@@ -1,0 +1,77 @@
+* {
+    cursor: url(../img/cursor.png) , auto;
+    caret-color: transparent;
+} 
+
+body {
+    background-color:#5e1605;
+    color: #c9a95d;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-child {
+    flex: 1;
+    width: 100px;
+    height: 25px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    outline-style: outset;
+    outline-color: #8c3a27;
+    padding: 2px;
+    margin-right: 20px
+}
+
+.title {
+    color: transparent;
+    text-align: center;
+    padding-top: 10%;
+}
+
+#gamecomplete{
+    margin-top: 5%;
+    margin-left: 15%;
+    image-rendering: pixelated;
+    background-size: 100%;
+    width: 70%;
+    height: 10%;
+    background-image: url(/static/img/gamecomplete.png);
+}
+
+.container {
+    width: 100%;
+    padding: 10px;
+}
+
+.custom-maze{
+    padding: 20px;
+    width: auto;
+    margin-left:40%;
+}
+
+.maze-list{
+    text-align: center;
+
+}
+
+button {
+    margin-left: 48%;
+    background-color: #822510;
+    border-color: #8c3a27;
+    color: #c9a95d;
+    font-family: fantasy;
+}
+
+input {
+    color: #c9a95d;
+    border-color: #8c3a27;
+    background-color: #822510;
+    caret-color: #c9a95d;
+    margin-left: auto;
+}

@@ -1,0 +1,22 @@
+{% extends "public/templates/public_template.html" %}
+
+{% block title %}Lost Cause{% endblock %}
+
+{% block main %}
+
+<div class="title">
+    <img src="{{ url_for('static', filename='img/lostcausetitle.png') }}" alt="">
+</div>
+<div class="container">
+    {# button takes user to the first level - 3x3 maze #}
+    <button onclick="window.location.href='/play?height=3&width=3'">Play?</button>
+</div>
+
+
+{% endblock %}
+
+{% block script %}
+<script>
+
+</script>
+{% endblock %}
